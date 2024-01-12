@@ -1,10 +1,10 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.commodity;
 
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityGetCurveRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityGetCurveResponseDTO;
-import cn.tju.sse.spring_backend.dto.cus.commodity.mapper.CommodityGetCurveResponseMapper;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityGetCurveRequestDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityGetCurveResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.mapper.CommodityGetCurveResponseMapper;
 import cn.tju.sse.spring_backend.model.CommodityPriceCurveEntity;
-import cn.tju.sse.spring_backend.repository.cus.commodity.CommodityGetCurveRepository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.commodity.CommodityGetCurveRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys.store;
 
-import cn.tju.sse.spring_backend.dto.cus.store.CustomerGetStoreDetailFailResponse;
-import cn.tju.sse.spring_backend.dto.cus.store.CustomerGetStoreDetailResponse;
+import cn.tju.sse.spring_backend.dto.shoppingSys.store.CustomerGetStoreDetailFailResponse;
+import cn.tju.sse.spring_backend.dto.shoppingSys.store.CustomerGetStoreDetailResponse;
 import cn.tju.sse.spring_backend.service.shoppingSys.store.CustomerGetStoreDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

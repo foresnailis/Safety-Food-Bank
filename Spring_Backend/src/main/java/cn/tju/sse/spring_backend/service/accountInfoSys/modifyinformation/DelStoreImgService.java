@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.modifyinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.modify.DelStoreImgRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.modify.DelStoreImgResponseDTO;
-import cn.tju.sse.spring_backend.repository.pub.modify.DelStoreImgRepository;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.DelStoreImgRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.DelStoreImgResponseDTO;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.DelStoreImgRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

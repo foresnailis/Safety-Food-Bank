@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.controller.indentSys.StoreIndent;
 
-import cn.tju.sse.spring_backend.dto.sto.StoreIndentList.IndentBoxResponseDTO;
-import cn.tju.sse.spring_backend.dto.sto.StoreIndentList.RefundResponseDTO;
+import cn.tju.sse.spring_backend.dto.indentSys.StoreIndentList.IndentBoxResponseDTO;
+import cn.tju.sse.spring_backend.dto.indentSys.StoreIndentList.RefundResponseDTO;
 import cn.tju.sse.spring_backend.service.indentSys.StoreIndentList.IndentBoxService;
 import cn.tju.sse.spring_backend.service.indentSys.StoreIndentList.RefundListService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package cn.tju.sse.spring_backend.controller.accountInfoSys.register;
 
-import cn.tju.sse.spring_backend.dto.pub.register.*;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.*;
 import cn.tju.sse.spring_backend.service.accountInfoSys.register.CusRegisterService;
 import cn.tju.sse.spring_backend.service.accountInfoSys.register.StoreRegisterService;
 import cn.tju.sse.spring_backend.service.accountInfoSys.register.UserRegisterService;

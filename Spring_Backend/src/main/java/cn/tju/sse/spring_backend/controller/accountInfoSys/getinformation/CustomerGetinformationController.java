@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.controller.accountInfoSys.getinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.getinformation.CustomerGetinformationRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.CustomerGetinformationResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.CustomerGetinformationRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.CustomerGetinformationResponseDTO;
 import cn.tju.sse.spring_backend.service.accountInfoSys.getinformation.CustomerGetinformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

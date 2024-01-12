@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys.favorite;
 
 
-import cn.tju.sse.spring_backend.dto.cus.favorite.CustomerSetFavorStateRequest;
-import cn.tju.sse.spring_backend.dto.cus.favorite.CustomerSetFavorStateResponse;
+import cn.tju.sse.spring_backend.dto.shoppingSys.favorite.CustomerSetFavorStateRequest;
+import cn.tju.sse.spring_backend.dto.shoppingSys.favorite.CustomerSetFavorStateResponse;
 import cn.tju.sse.spring_backend.service.shoppingSys.favorite.CustomerSetFavorStateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

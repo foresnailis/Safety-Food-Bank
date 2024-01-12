@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.accountManagement;
 
-import cn.tju.sse.spring_backend.dto.admin.UserResponseDTO;
-import cn.tju.sse.spring_backend.repository.admin.UserListRepository;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.accountManagement.UserResponseDTO;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.accountManagement.UserListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

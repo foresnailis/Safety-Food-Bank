@@ -1,13 +1,13 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.getinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.getinformation.CustomerGetinformationRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.CustomerGetinformationResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.mapper.CustomerGetinformationRequestMapper;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.mapper.CustomerGetinformationResponseMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.CustomerGetinformationRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.CustomerGetinformationResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.mapper.CustomerGetinformationRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.mapper.CustomerGetinformationResponseMapper;
 import cn.tju.sse.spring_backend.model.CustomerEntity;
 import cn.tju.sse.spring_backend.model.CustomerLoveEntity;
-import cn.tju.sse.spring_backend.repository.pub.getinformation.CustomerGetinformationRepository;
-import cn.tju.sse.spring_backend.repository.pub.getinformation.CustomerLoveGetinformationRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.getInformation.CustomerGetinformationRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.getInformation.CustomerLoveGetinformationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

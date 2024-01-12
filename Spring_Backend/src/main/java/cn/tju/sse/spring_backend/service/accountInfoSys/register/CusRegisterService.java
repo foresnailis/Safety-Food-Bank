@@ -1,12 +1,12 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.register;
 
-import cn.tju.sse.spring_backend.dto.pub.register.CusRegistrationRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.register.CusRegistrationResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.register.mapper.CusRegistrationRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.CusRegistrationRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.CusRegistrationResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.mapper.CusRegistrationRequestMapper;
 import cn.tju.sse.spring_backend.model.CustomerEntity;
 import cn.tju.sse.spring_backend.model.CustomerLoveEntity;
-import cn.tju.sse.spring_backend.repository.pub.register.CustomerLoveRepository;
-import cn.tju.sse.spring_backend.repository.pub.register.CustomerRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.CustomerLoveRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

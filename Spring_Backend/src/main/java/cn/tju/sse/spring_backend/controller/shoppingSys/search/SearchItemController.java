@@ -1,6 +1,6 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys.search;
 
-import cn.tju.sse.spring_backend.dto.cus.search.*;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.*;
 import cn.tju.sse.spring_backend.service.shoppingSys.search.SearchItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

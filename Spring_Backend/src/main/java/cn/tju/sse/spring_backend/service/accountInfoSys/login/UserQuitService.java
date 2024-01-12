@@ -1,9 +1,9 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.login;
 
 import cn.dev33.satoken.stp.StpUtil;
-import cn.tju.sse.spring_backend.dto.pub.login.UserQuitRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.login.UserQuitRequestDTO;
 import cn.tju.sse.spring_backend.model.UsersEntity;
-import cn.tju.sse.spring_backend.repository.pub.register.UserRegisterRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.UserRegisterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

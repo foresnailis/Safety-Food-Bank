@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.favorite;
 
-import cn.tju.sse.spring_backend.dto.cus.favorite.CustomerGetFavorResponse;
-import cn.tju.sse.spring_backend.repository.cus.favorite.CustomerGetFavorRepository;
+import cn.tju.sse.spring_backend.dto.shoppingSys.favorite.CustomerGetFavorResponse;
+import cn.tju.sse.spring_backend.repository.shoppingSys.favorite.CustomerGetFavorRepository;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;

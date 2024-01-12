@@ -1,10 +1,10 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.search;
 
-import cn.tju.sse.spring_backend.dto.cus.search.*;
-import cn.tju.sse.spring_backend.dto.cus.search.mapper.StoListMapper;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.*;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.mapper.StoListMapper;
 import cn.tju.sse.spring_backend.model.CommodityPriceCurveEntity;
-import cn.tju.sse.spring_backend.repository.cus.search.SearchCommodityPriceCurveRepository;
-import cn.tju.sse.spring_backend.repository.cus.search.SearchItemRepository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.search.SearchCommodityPriceCurveRepository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.search.SearchItemRepository;
 import cn.tju.sse.spring_backend.utils.StorageFileReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

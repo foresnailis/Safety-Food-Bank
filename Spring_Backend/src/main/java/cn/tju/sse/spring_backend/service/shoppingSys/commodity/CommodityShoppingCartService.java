@@ -1,10 +1,10 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.commodity;
 
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityShoppingCartRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityShoppingCartResponseDTO;
-import cn.tju.sse.spring_backend.dto.cus.commodity.mapper.CommodityShoppingCartResponseMapper;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityShoppingCartRequestDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityShoppingCartResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.mapper.CommodityShoppingCartResponseMapper;
 import cn.tju.sse.spring_backend.model.*;
-import cn.tju.sse.spring_backend.repository.cus.commodity.*;
+import cn.tju.sse.spring_backend.repository.shoppingSys.commodity.*;
 
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;

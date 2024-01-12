@@ -1,12 +1,12 @@
 package cn.tju.sse.spring_backend.service.appealSys;
 
-import cn.tju.sse.spring_backend.dto.cus.appeal.CreateAppealRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.appeal.MsgResponseDTO;
+import cn.tju.sse.spring_backend.dto.appealSys.createAppeal.CreateAppealRequestDTO;
+import cn.tju.sse.spring_backend.dto.appealSys.createAppeal.MsgResponseDTO;
 import cn.tju.sse.spring_backend.model.AppealEntity;
 import cn.tju.sse.spring_backend.model.ScreenshotEntity;
 import cn.tju.sse.spring_backend.repository.SeqNextvalRepository;
-import cn.tju.sse.spring_backend.repository.cus.appeal.AppealRespository;
-import cn.tju.sse.spring_backend.repository.cus.appeal.ScreenshotRepository;
+import cn.tju.sse.spring_backend.repository.appealSys.createAppeal.AppealRespository;
+import cn.tju.sse.spring_backend.repository.appealSys.createAppeal.ScreenshotRepository;
 import cn.tju.sse.spring_backend.repository.obs.ObsOperationTool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

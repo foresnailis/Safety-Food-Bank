@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.store;
 
-import cn.tju.sse.spring_backend.dto.cus.store.CustomerGetStoreDetailResponse;
-import cn.tju.sse.spring_backend.repository.cus.store.CustomerGetStoreDetailRepository;
+import cn.tju.sse.spring_backend.dto.shoppingSys.store.CustomerGetStoreDetailResponse;
+import cn.tju.sse.spring_backend.repository.shoppingSys.store.CustomerGetStoreDetailRepository;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;

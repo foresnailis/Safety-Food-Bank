@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.service.appealSys;
 
-import cn.tju.sse.spring_backend.dto.admin.AppealResponseDTO;
-import cn.tju.sse.spring_backend.repository.admin.AppealListRepository;
+import cn.tju.sse.spring_backend.dto.appealSys.AppealListResponseDTO;
+import cn.tju.sse.spring_backend.repository.appealSys.adminAppeal.AppealListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,8 +25,8 @@ public class AppealListService {
      * @param endNum     结束位置
      * @return 申诉列表
      */
-    public List<AppealResponseDTO> getAppealList(int timeOrder, int beginNum, int endNum) {
-        List<AppealResponseDTO> appeals = new ArrayList<>();
+    public List<AppealListResponseDTO> getAppealList(int timeOrder, int beginNum, int endNum) {
+        List<AppealListResponseDTO> appeals = new ArrayList<>();
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
         beginNum = beginNum - 1;
@@ -39,7 +39,7 @@ public class AppealListService {
             appealList = appealListRepository.getAppealListDesc(beginNum, pageSize);
 
         for (Object[] row : appealList) {
-            AppealResponseDTO appeal = new AppealResponseDTO();
+            AppealListResponseDTO appeal = new AppealListResponseDTO();
 
             appeal.setAPP_ID((Integer) row[0]);
             appeal.setAPP_MATTERS((Integer) row[1]);

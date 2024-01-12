@@ -1,17 +1,10 @@
 package cn.tju.sse.spring_backend.utils;
 import cn.tju.sse.spring_backend.model.CommodityEntity;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.PreparedStatementCallback;
-import org.springframework.jdbc.core.SqlOutParameter;
-import org.springframework.jdbc.core.SqlParameter;
-import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
-import org.springframework.jdbc.core.simple.SimpleJdbcCall;
 import org.springframework.stereotype.Service;
 
-import javax.sql.DataSource;
-import java.sql.Types;
 import java.util.*;
 
 @Service

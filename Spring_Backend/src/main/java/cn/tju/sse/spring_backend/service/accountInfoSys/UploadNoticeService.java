@@ -1,9 +1,9 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys;
 
-import cn.tju.sse.spring_backend.dto.sto.UploadNoticeRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.UploadNoticeRequestDTO;
 import cn.tju.sse.spring_backend.model.NoticeEntity;
 import cn.tju.sse.spring_backend.repository.SeqNextvalRepository;
-import cn.tju.sse.spring_backend.repository.sto.UploadNoticeRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.UploadNoticeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

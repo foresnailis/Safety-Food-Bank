@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.controller.appealSys;
 
 
-import cn.tju.sse.spring_backend.dto.cus.appeal.CreateAppealRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.appeal.MsgResponseDTO;
+import cn.tju.sse.spring_backend.dto.appealSys.createAppeal.CreateAppealRequestDTO;
+import cn.tju.sse.spring_backend.dto.appealSys.createAppeal.MsgResponseDTO;
 import cn.tju.sse.spring_backend.service.appealSys.AppealService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

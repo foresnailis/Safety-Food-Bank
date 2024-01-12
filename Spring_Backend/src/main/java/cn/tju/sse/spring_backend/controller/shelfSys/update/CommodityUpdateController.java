@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.controller.shelfSys.update;
 
-import cn.tju.sse.spring_backend.dto.sto.update.CommodityImageUpdateRequestDTO;
-import cn.tju.sse.spring_backend.dto.sto.update.CommodityUpdateRequestDTO;
-import cn.tju.sse.spring_backend.dto.sto.update.CommodityUpdateResponseDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.update.CommodityImageUpdateRequestDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.update.CommodityUpdateRequestDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.update.CommodityUpdateResponseDTO;
 import cn.tju.sse.spring_backend.service.shelfSys.update.CommodityUpdateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

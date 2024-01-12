@@ -1,10 +1,10 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.modifyinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.modify.UserModifyRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.modify.UserModifyResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.modify.mapper.UserModifyRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.UserModifyRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.UserModifyResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.mapper.UserModifyRequestMapper;
 import cn.tju.sse.spring_backend.model.UsersEntity;
-import cn.tju.sse.spring_backend.repository.pub.modify.UserModifyRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.UserModifyRepository;
 import cn.tju.sse.spring_backend.utils.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

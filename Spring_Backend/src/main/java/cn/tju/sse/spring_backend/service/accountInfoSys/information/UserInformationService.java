@@ -1,11 +1,11 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.information;
 
-import cn.tju.sse.spring_backend.dto.pub.information.UserInformationRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.information.UserInformationResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.information.mapper.UserInformationRequestMapper;
-import cn.tju.sse.spring_backend.dto.pub.information.mapper.UserInformationResponseMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.information.UserInformationRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.information.UserInformationResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.information.mapper.UserInformationRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.information.mapper.UserInformationResponseMapper;
 import cn.tju.sse.spring_backend.model.UsersEntity;
-import cn.tju.sse.spring_backend.repository.pub.information.UserInformationRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.information.UserInformationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

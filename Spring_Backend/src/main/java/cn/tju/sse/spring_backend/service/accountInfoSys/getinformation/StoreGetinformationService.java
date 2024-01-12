@@ -1,13 +1,13 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.getinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.getinformation.StoreGetinformationRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.StoreGetinformationResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.mapper.StoreGetinformationRequestMapper;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.mapper.StoreGetinformationResponseMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.StoreGetinformationRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.StoreGetinformationResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.mapper.StoreGetinformationRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.mapper.StoreGetinformationResponseMapper;
 import cn.tju.sse.spring_backend.model.StoreCategoriesEntity;
 import cn.tju.sse.spring_backend.model.StoreEntity;
-import cn.tju.sse.spring_backend.repository.pub.getinformation.StoreCategoriesGetinformationRepository;
-import cn.tju.sse.spring_backend.repository.pub.getinformation.StoreGetinformationRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.getInformation.StoreCategoriesGetinformationRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.getInformation.StoreGetinformationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

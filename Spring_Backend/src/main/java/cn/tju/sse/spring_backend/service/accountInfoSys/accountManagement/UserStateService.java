@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.accountManagement;
 
-import cn.tju.sse.spring_backend.dto.admin.ChangeUserStateRequestDTO;
-import cn.tju.sse.spring_backend.repository.admin.UserStateRepository;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.accountManagement.ChangeUserStateRequestDTO;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.accountManagement.UserStateRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

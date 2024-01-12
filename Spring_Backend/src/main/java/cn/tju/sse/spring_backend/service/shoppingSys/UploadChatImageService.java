@@ -1,10 +1,9 @@
 package cn.tju.sse.spring_backend.service.shoppingSys;
 
-import cn.tju.sse.spring_backend.dto.pub.UploadChatImageResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.UploadChatImageResponseDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
 import java.util.Objects;
 
 import static cn.tju.sse.spring_backend.repository.obs.ObsOperationTool.uploadInputStream;

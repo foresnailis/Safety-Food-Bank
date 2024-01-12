@@ -1,9 +1,9 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.search;
 
-import cn.tju.sse.spring_backend.dto.cus.search.SearchCategoriesResponseDTO;
-import cn.tju.sse.spring_backend.dto.cus.search.mapper.CategoriesResponseMapper;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.SearchCategoriesResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.mapper.CategoriesResponseMapper;
 import cn.tju.sse.spring_backend.model.CommoditiesCategoriesEntity;
-import cn.tju.sse.spring_backend.repository.cus.search.SearchCategoriesRepository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.search.SearchCategoriesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

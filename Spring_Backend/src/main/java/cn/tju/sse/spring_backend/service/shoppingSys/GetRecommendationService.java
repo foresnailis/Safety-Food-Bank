@@ -1,14 +1,12 @@
 package cn.tju.sse.spring_backend.service.shoppingSys;
 
-import cn.tju.sse.spring_backend.dto.pub.GetMessageResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.UserIDRequestDTO;
-import cn.tju.sse.spring_backend.repository.obs.ObsOperationTool;
+import cn.tju.sse.spring_backend.dto.shoppingSys.GetMessageResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.UserIDRequestDTO;
 import cn.tju.sse.spring_backend.utils.ItemCFRecommendation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.*;
-import java.nio.file.Files;
 import java.util.List;
 
 @Service

@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.controller.accountInfoSys.resetpassword;
 
-import cn.tju.sse.spring_backend.dto.pub.resetpassword.ResetPasswordRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.resetpassword.ResetPasswordVerifyRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.resetpassword.ResetPasswordResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.resetpassword.ResetPasswordRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.resetpassword.ResetPasswordVerifyRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.resetpassword.ResetPasswordResponseDTO;
 import cn.tju.sse.spring_backend.service.accountInfoSys.resetpassword.ResetPasswordService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

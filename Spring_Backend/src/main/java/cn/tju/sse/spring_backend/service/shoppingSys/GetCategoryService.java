@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.service.shoppingSys;
 
-import cn.tju.sse.spring_backend.dto.pub.GetCategoryResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.GetCategoryResponseDTO;
 import cn.tju.sse.spring_backend.model.CommoditiesCategoriesEntity;
-import cn.tju.sse.spring_backend.repository.pub.CategoryRespository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.CategoryRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

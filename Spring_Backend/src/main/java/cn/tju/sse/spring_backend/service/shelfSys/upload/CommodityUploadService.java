@@ -1,16 +1,16 @@
 package cn.tju.sse.spring_backend.service.shelfSys.upload;
 
-import cn.tju.sse.spring_backend.dto.sto.upload.*;
+import cn.tju.sse.spring_backend.dto.shelfSys.upload.*;
 import cn.tju.sse.spring_backend.model.CommodityCategoriesEntity;
 import cn.tju.sse.spring_backend.model.CommodityEntity;
 import cn.tju.sse.spring_backend.model.CommodityImageEntity;
 import cn.tju.sse.spring_backend.model.CommodityPriceCurveEntity;
 import cn.tju.sse.spring_backend.repository.SeqNextvalRepository;
 import cn.tju.sse.spring_backend.repository.obs.ObsOperationTool;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityCategoriesRepository;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityImageRepository;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityPriceCurveRepository;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityCategoriesRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityImageRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityPriceCurveRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

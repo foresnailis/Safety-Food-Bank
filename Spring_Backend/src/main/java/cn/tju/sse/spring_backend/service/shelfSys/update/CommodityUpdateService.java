@@ -1,18 +1,18 @@
 package cn.tju.sse.spring_backend.service.shelfSys.update;
 
-import cn.tju.sse.spring_backend.dto.sto.update.CommodityImageUpdateRequestDTO;
-import cn.tju.sse.spring_backend.dto.sto.update.CommodityUpdateRequestDTO;
-import cn.tju.sse.spring_backend.dto.sto.update.CommodityUpdateResponseDTO;
-import cn.tju.sse.spring_backend.dto.sto.upload.CommodityTimePriceDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.update.CommodityImageUpdateRequestDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.update.CommodityUpdateRequestDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.update.CommodityUpdateResponseDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.upload.CommodityTimePriceDTO;
 import cn.tju.sse.spring_backend.model.CommodityCategoriesEntity;
 import cn.tju.sse.spring_backend.model.CommodityEntity;
 import cn.tju.sse.spring_backend.model.CommodityImageEntity;
 import cn.tju.sse.spring_backend.model.CommodityPriceCurveEntity;
 import cn.tju.sse.spring_backend.repository.obs.ObsOperationTool;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityCategoriesRepository;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityImageRepository;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityPriceCurveRepository;
-import cn.tju.sse.spring_backend.repository.sto.commodity.CommodityRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityCategoriesRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityImageRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityPriceCurveRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.commodity.CommodityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

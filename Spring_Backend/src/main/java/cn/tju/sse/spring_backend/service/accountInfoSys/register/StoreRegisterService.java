@@ -1,15 +1,15 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.register;
 
-import cn.tju.sse.spring_backend.dto.pub.register.StoreRegistrationRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.register.StoreRegistrationResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.register.mapper.StoreRegistrationRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.StoreRegistrationRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.StoreRegistrationResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.mapper.StoreRegistrationRequestMapper;
 import cn.tju.sse.spring_backend.model.StoreCategoriesEntity;
 import cn.tju.sse.spring_backend.model.StoreEntity;
 import cn.tju.sse.spring_backend.model.StoreimageEntity;
 import cn.tju.sse.spring_backend.repository.obs.ObsOperationTool;
-import cn.tju.sse.spring_backend.repository.pub.register.StoreCategoryRepository;
-import cn.tju.sse.spring_backend.repository.pub.getinformation.StoreImgRepository;
-import cn.tju.sse.spring_backend.repository.pub.register.StoreRegisterRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.StoreCategoryRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.getInformation.StoreImgRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.StoreRegisterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

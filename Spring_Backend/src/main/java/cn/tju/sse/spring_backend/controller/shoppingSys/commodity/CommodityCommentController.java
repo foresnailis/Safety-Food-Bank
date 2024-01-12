@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys.commodity;
 
 
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityCommentRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityCommentResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityCommentRequestDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityCommentResponseDTO;
 import cn.tju.sse.spring_backend.service.shoppingSys.commodity.CommodityCommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

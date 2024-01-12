@@ -1,6 +1,6 @@
 package cn.tju.sse.spring_backend.controller.accountInfoSys;
 
-import cn.tju.sse.spring_backend.dto.sto.UploadNoticeRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.UploadNoticeRequestDTO;
 import cn.tju.sse.spring_backend.service.accountInfoSys.UploadNoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

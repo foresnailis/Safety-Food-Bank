@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.favorite;
 
-import cn.tju.sse.spring_backend.dto.cus.favorite.CustomerSetFavorStateRequest;
+import cn.tju.sse.spring_backend.dto.shoppingSys.favorite.CustomerSetFavorStateRequest;
 import cn.tju.sse.spring_backend.model.FavoriteEntity;
-import cn.tju.sse.spring_backend.repository.cus.favorite.CustomerSetFavorStateRepository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.favorite.CustomerSetFavorStateRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

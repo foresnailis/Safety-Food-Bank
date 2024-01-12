@@ -1,6 +1,6 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys;
 
-import cn.tju.sse.spring_backend.dto.pub.UploadChatImageResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.UploadChatImageResponseDTO;
 import cn.tju.sse.spring_backend.service.shoppingSys.UploadChatImageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

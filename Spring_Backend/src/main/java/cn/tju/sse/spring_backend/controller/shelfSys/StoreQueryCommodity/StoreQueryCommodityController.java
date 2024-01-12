@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.controller.shelfSys.StoreQueryCommodity;
 
-import cn.tju.sse.spring_backend.dto.sto.StoreQueryCommodity.CommodityDetailResponseDTO;
-import cn.tju.sse.spring_backend.dto.sto.StoreQueryCommodity.SearchCommodityRequestDTO;
-import cn.tju.sse.spring_backend.dto.sto.StoreQueryCommodity.SearchCommodityResponseDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.StoreQueryCommodity.CommodityDetailResponseDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.StoreQueryCommodity.SearchCommodityRequestDTO;
+import cn.tju.sse.spring_backend.dto.shelfSys.StoreQueryCommodity.SearchCommodityResponseDTO;
 import cn.tju.sse.spring_backend.service.shelfSys.StoreQueryCommodity.CommodityDetailService;
 import cn.tju.sse.spring_backend.service.shelfSys.StoreQueryCommodity.CommodityImagePathService;
 import cn.tju.sse.spring_backend.service.shelfSys.StoreQueryCommodity.CommodityTotalNumService;

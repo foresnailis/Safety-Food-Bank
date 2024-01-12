@@ -1,13 +1,13 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.login;
 
-import cn.tju.sse.spring_backend.dto.pub.login.UserLoginRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.login.UserLoginResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.login.UserLoginRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.login.UserLoginResponseDTO;
 import cn.tju.sse.spring_backend.model.CustomerEntity;
 import cn.tju.sse.spring_backend.model.StoreEntity;
 import cn.tju.sse.spring_backend.model.UsersEntity;
-import cn.tju.sse.spring_backend.repository.pub.register.CustomerRepository;
-import cn.tju.sse.spring_backend.repository.pub.register.StoreRegisterRepository;
-import cn.tju.sse.spring_backend.repository.pub.register.UserRegisterRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.CustomerRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.StoreRegisterRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.UserRegisterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

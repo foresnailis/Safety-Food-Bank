@@ -1,6 +1,6 @@
 package cn.tju.sse.spring_backend.service.shelfSys.StoreQueryCommodity;
 
-import cn.tju.sse.spring_backend.repository.sto.StoreQueryCommodity.CommodityTotalNumRepository;
+import cn.tju.sse.spring_backend.repository.shelfSys.StoreQueryCommodity.CommodityTotalNumRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

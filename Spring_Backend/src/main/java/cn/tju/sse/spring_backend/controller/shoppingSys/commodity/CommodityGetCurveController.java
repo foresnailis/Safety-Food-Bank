@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys.commodity;
 
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityGetCurveRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityGetCurveResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityGetCurveRequestDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityGetCurveResponseDTO;
 import cn.tju.sse.spring_backend.service.shoppingSys.commodity.CommodityGetCurveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

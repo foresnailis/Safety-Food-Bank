@@ -3,9 +3,9 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import cn.tju.sse.spring_backend.dto.cus.history.HistorySetBrowsingHistoryResponse;
+import cn.tju.sse.spring_backend.dto.shoppingSys.history.HistorySetBrowsingHistoryResponse;
 import cn.tju.sse.spring_backend.model.BrowseEntity;
-import cn.tju.sse.spring_backend.repository.cus.history.HistorySetBrowsingHistoryRepository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.history.HistorySetBrowsingHistoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

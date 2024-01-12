@@ -1,9 +1,9 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.commodity;
 
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityCommentResponseDTO;
-import cn.tju.sse.spring_backend.dto.cus.commodity.CommoditySendCommentDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityCommentResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommoditySendCommentDTO;
 import cn.tju.sse.spring_backend.model.CommodityCommentEntity;
-import cn.tju.sse.spring_backend.repository.cus.commodity.CommodityCommentRepository;
+import cn.tju.sse.spring_backend.repository.shoppingSys.commodity.CommodityCommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

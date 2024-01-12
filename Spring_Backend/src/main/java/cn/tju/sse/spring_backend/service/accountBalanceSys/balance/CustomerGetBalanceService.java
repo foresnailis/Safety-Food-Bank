@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.service.accountBalanceSys.balance;
 
-import cn.tju.sse.spring_backend.dto.cus.balance.CustomerGetBalanceRequest;
+import cn.tju.sse.spring_backend.dto.accountBalanceSys.balance.CustomerGetBalanceRequest;
 import cn.tju.sse.spring_backend.model.UsersEntity;
-import cn.tju.sse.spring_backend.repository.cus.balance.CustomerGetBalanceRespository;
+import cn.tju.sse.spring_backend.repository.accountBalanceSys.balance.CustomerGetBalanceRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

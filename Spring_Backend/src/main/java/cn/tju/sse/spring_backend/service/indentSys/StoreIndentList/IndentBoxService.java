@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.service.indentSys.StoreIndentList;
 
-import cn.tju.sse.spring_backend.dto.sto.StoreIndentList.IndentBoxResponseDTO;
-import cn.tju.sse.spring_backend.repository.sto.StoreIndentList.IndentBoxRepository;
+import cn.tju.sse.spring_backend.dto.indentSys.StoreIndentList.IndentBoxResponseDTO;
+import cn.tju.sse.spring_backend.repository.indentSys.StoreIndentList.IndentBoxRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

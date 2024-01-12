@@ -1,14 +1,14 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.modifyinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.modify.CustomerModifyRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.modify.CustomerModifyResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.modify.mapper.CustomerModifyRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.CustomerModifyRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.CustomerModifyResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.mapper.CustomerModifyRequestMapper;
 import cn.tju.sse.spring_backend.model.CommoditiesCategoriesEntity;
 import cn.tju.sse.spring_backend.model.CustomerEntity;
 import cn.tju.sse.spring_backend.model.CustomerLoveEntity;
-import cn.tju.sse.spring_backend.repository.pub.modify.CommoditiesCategoriesRepository;
-import cn.tju.sse.spring_backend.repository.pub.modify.CustomerLoveModifyRepository;
-import cn.tju.sse.spring_backend.repository.pub.modify.CustomerModifyRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.CommoditiesCategoriesRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.CustomerLoveModifyRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.CustomerModifyRepository;
 import cn.tju.sse.spring_backend.utils.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

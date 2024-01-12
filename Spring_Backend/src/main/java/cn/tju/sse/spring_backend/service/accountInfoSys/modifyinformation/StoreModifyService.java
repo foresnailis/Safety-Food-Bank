@@ -1,17 +1,17 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.modifyinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.modify.StoreModifyRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.modify.StoreModifyResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.modify.mapper.StoreModifyRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.StoreModifyRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.StoreModifyResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.modify.mapper.StoreModifyRequestMapper;
 import cn.tju.sse.spring_backend.model.CommoditiesCategoriesEntity;
 import cn.tju.sse.spring_backend.model.StoreCategoriesEntity;
 import cn.tju.sse.spring_backend.model.StoreEntity;
 import cn.tju.sse.spring_backend.model.StoreimageEntity;
 import cn.tju.sse.spring_backend.repository.obs.ObsOperationTool;
-import cn.tju.sse.spring_backend.repository.pub.modify.CommoditiesCategoriesRepository;
-import cn.tju.sse.spring_backend.repository.pub.modify.StoreCategoriesModifyRepository;
-import cn.tju.sse.spring_backend.repository.pub.modify.StoreImageModifyRepository;
-import cn.tju.sse.spring_backend.repository.pub.modify.StoreModifyRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.CommoditiesCategoriesRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.StoreCategoriesModifyRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.StoreImageModifyRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.modifyinformation.StoreModifyRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,11 +1,11 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.register;
 
-import cn.tju.sse.spring_backend.dto.pub.register.UserRegistrationRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.register.UserRegistrationResponseDTO;
-import cn.tju.sse.spring_backend.dto.pub.register.mapper.UserRegistrationRequestMapper;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.UserRegistrationRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.UserRegistrationResponseDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.register.mapper.UserRegistrationRequestMapper;
 import cn.tju.sse.spring_backend.model.UsersEntity;
 import cn.tju.sse.spring_backend.repository.SeqNextvalRepository;
-import cn.tju.sse.spring_backend.repository.pub.register.UserRegisterRepository;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.register.UserRegisterRepository;
 import cn.tju.sse.spring_backend.utils.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

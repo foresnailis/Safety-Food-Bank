@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.service.indentSys;
 
-import cn.tju.sse.spring_backend.dto.sto.CommodityVerifyResponseDTO;
-import cn.tju.sse.spring_backend.repository.sto.CommodityVerifyRepository;
+import cn.tju.sse.spring_backend.dto.indentSys.CommodityVerifyResponseDTO;
+import cn.tju.sse.spring_backend.repository.indentSys.CommodityVerifyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

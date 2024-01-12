@@ -1,8 +1,8 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.getinformation;
 
-import cn.tju.sse.spring_backend.dto.pub.getinformation.StoreImgRequestDTO;
-import cn.tju.sse.spring_backend.dto.pub.getinformation.StoreImgResponseDTO;
-import cn.tju.sse.spring_backend.repository.pub.getinformation.StoreImgRepository;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.StoreImgRequestDTO;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.StoreImgResponseDTO;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.getInformation.StoreImgRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,11 +1,11 @@
 package cn.tju.sse.spring_backend.service.shoppingSys.search;
 
 
-import cn.tju.sse.spring_backend.dto.cus.search.GetLocationSortRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.search.GetLocationSortResponseDTO;
-import cn.tju.sse.spring_backend.dto.cus.search.SendLocationRepositoryDTO;
-import cn.tju.sse.spring_backend.dto.cus.search.SendLocationResponseDTO;
-import cn.tju.sse.spring_backend.repository.cus.search.LocationRepository;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.GetLocationSortRequestDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.GetLocationSortResponseDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.SendLocationRepositoryDTO;
+import cn.tju.sse.spring_backend.dto.shoppingSys.search.SendLocationResponseDTO;
+import cn.tju.sse.spring_backend.repository.shoppingSys.search.LocationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
