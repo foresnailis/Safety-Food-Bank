@@ -8,15 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author lhx
- * @date 2023/12/22
  * @Description 本地文件操作类
  */
 public class StorageFileReader {
 
     /**
-     * @author lhx
-     * @date 2023/12/22
      * @Description 传入本地文件路径，读取文件
      * 用于读取推荐文件与地理位置排序文件
      */

@@ -32,7 +32,7 @@ public class CommodityDetailService {
         CommodityEntity commodity = commodityDetailRepository.findCommodityEntityById(comId);
         if (commodity == null)
             return response;
-        response.setCom_id(commodity.getComId());
+
         response.setCom_name(commodity.getComName());
         response.setCom_introduction(commodity.getComIntroduction());
         response.setCom_oriprice(commodity.getComOriprice());

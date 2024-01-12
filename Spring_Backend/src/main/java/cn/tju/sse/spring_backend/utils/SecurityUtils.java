@@ -3,8 +3,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
  * 安全服务工具类
- * @Author lisnail
- * @create 2023/12/06 12:55
  */
 public class SecurityUtils {
     /**

@@ -1,6 +1,6 @@
 package cn.tju.sse.spring_backend.service.cus.indent;
 
-import cn.tju.sse.spring_backend.controller.cus.balance.CustomerBalanceController;
+import cn.tju.sse.spring_backend.controller.accountBalanceSys.balance.CustomerBalanceController;
 import cn.tju.sse.spring_backend.dto.cus.balance.CustomerGetBalanceResponse;
 import cn.tju.sse.spring_backend.dto.cus.balance.CustomerSetBalanceRequest;
 import cn.tju.sse.spring_backend.dto.cus.balance.CustomerSetBalanceResponse;
@@ -72,8 +72,15 @@ public class IndentService {
 
         for (GenerateIndentRequestDTO.IndentsDTO indentDTO:request.getIndent_arr()){
             // 生成一个随机的UUID
-            UUID uuid = UUID.randomUUID();
-            String uuidAsString = uuid.toString();
+//            UUID uuid = UUID.randomUUID();
+//            String uuidAsString = uuid.toString();
+            // 生成一个8位随机数
+            Random randomGenerator=new Random();
+            StringBuilder sb = new StringBuilder();
+            int randomNum=randomGenerator.nextInt(100000000);
+            sb.append(String.format("%08d",randomNum));
+            String randomString=sb.toString();
+
             if(indentDTO.getInd_notes().length()==0){
                 indentDTO.setInd_notes(" ");
             }
@@ -85,7 +92,7 @@ public class IndentService {
 
                 indentEntity.setIndCreationtime(currentDate);
                 // 此处存疑
-                indentEntity.setIndVerificationcode(uuidAsString);
+                indentEntity.setIndVerificationcode(randomString);
                 indentEntity.setIndNotes(indentDTO.getInd_notes());
                 indentEntity.setIndState(0);
                 indentEntity.setIndRating(BigDecimal.valueOf(-1));

@@ -1,4 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
+// const baseURL = "http://101.43.181.83:7631";
 const baseURL = "http://localhost:5000";
 const imageURL = "https://food-bank.obs.cn-east-3.myhuaweicloud.com/"
 module.exports = defineConfig({
