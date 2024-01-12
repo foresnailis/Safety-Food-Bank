@@ -56,4 +56,17 @@ public class AccountManagementController {
             return new ResponseEntity<>("未更新成功", HttpStatus.OK);
     }
 
+    /**
+     * 获取用户状态
+     *
+     * @param USER_ID   用户ID
+     * @param USER_TYPE 用户类型
+     * @return ResponseEntity<Integer> 包含用户状态的响应实体
+     */
+    @GetMapping("/userstate")
+    public ResponseEntity<Integer> getUserState(@RequestParam int USER_ID, @RequestParam int USER_TYPE) {
+        int response = userStateService.getUserState(USER_ID, USER_TYPE);
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
 }
