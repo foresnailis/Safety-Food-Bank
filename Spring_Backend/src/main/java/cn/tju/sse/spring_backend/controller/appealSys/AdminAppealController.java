@@ -2,7 +2,7 @@ package cn.tju.sse.spring_backend.controller.appealSys;
 
 
 import cn.tju.sse.spring_backend.dto.appealSys.AppealListResponseDTO;
-import cn.tju.sse.spring_backend.service.appealSys.AppealListService;
+import cn.tju.sse.spring_backend.service.appealSys.AppealManager.AppealListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys.commodity;
 
 import cn.tju.sse.spring_backend.dto.shoppingSys.commodity.CommodityGetDetailResponseDTO;
-import cn.tju.sse.spring_backend.service.shoppingSys.commodity.CommodityGetDetailService;
+import cn.tju.sse.spring_backend.service.shoppingSys.BrowseManager.CommodityGetDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.http.ResponseEntity;

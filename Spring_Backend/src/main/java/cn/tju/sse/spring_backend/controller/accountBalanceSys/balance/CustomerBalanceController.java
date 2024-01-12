@@ -4,8 +4,8 @@ import cn.tju.sse.spring_backend.dto.accountBalanceSys.balance.CustomerGetBalanc
 import cn.tju.sse.spring_backend.dto.accountBalanceSys.balance.CustomerGetBalanceResponse;
 import cn.tju.sse.spring_backend.dto.accountBalanceSys.balance.CustomerSetBalanceRequest;
 import cn.tju.sse.spring_backend.dto.accountBalanceSys.balance.CustomerSetBalanceResponse;
-import cn.tju.sse.spring_backend.service.accountBalanceSys.balance.CustomerGetBalanceService;
-import cn.tju.sse.spring_backend.service.accountBalanceSys.balance.CustomerSetBalanceService;
+import cn.tju.sse.spring_backend.service.accountBalanceSys.AccountManager.CustomerGetBalanceService;
+import cn.tju.sse.spring_backend.service.accountBalanceSys.AccountManager.CustomerSetBalanceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

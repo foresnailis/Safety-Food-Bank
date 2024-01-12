@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.controller.indentSys.CustomerIndent;
 
 import cn.tju.sse.spring_backend.dto.indentSys.CustomerIndent.*;
-import cn.tju.sse.spring_backend.service.indentSys.CustomerIndent.IndentService;
+import cn.tju.sse.spring_backend.service.indentSys.IndentManager.CustomerIndent.IndentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

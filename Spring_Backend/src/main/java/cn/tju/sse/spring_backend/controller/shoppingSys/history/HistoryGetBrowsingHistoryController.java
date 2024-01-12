@@ -3,7 +3,7 @@ package cn.tju.sse.spring_backend.controller.shoppingSys.history;
 
 import cn.tju.sse.spring_backend.dto.shoppingSys.history.HistoryGetBrowsingHistoryRequest;
 import cn.tju.sse.spring_backend.dto.shoppingSys.history.HistoryGetBrowsingHistoryResponse;
-import cn.tju.sse.spring_backend.service.shoppingSys.history.HistoryGetBrowsingHistoryService;
+import cn.tju.sse.spring_backend.service.shoppingSys.BrowseManager.HistoryGetBrowsingHistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

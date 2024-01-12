@@ -3,7 +3,7 @@ package cn.tju.sse.spring_backend.controller.accountInfoSys.getinformation;
 
 import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.StoreImgRequestDTO;
 import cn.tju.sse.spring_backend.dto.accountInfoSys.getinformation.StoreImgResponseDTO;
-import cn.tju.sse.spring_backend.service.accountInfoSys.getinformation.StoreImgService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.StoreManager.StoreImgService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

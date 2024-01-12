@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.controller.shoppingSys;
 
 import cn.tju.sse.spring_backend.dto.shoppingSys.GetCategoryResponseDTO;
-import cn.tju.sse.spring_backend.service.shoppingSys.GetCategoryService;
+import cn.tju.sse.spring_backend.service.shoppingSys.CustomerManager.GetCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

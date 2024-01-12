@@ -1,7 +1,7 @@
 package cn.tju.sse.spring_backend.dto.shoppingSys.favorite;
 
 
-import cn.tju.sse.spring_backend.service.shoppingSys.favorite.CustomerGetFavorService;
+import cn.tju.sse.spring_backend.service.shoppingSys.FavorManager.CustomerGetFavorService;
 import lombok.Getter;
 import lombok.Setter;
 

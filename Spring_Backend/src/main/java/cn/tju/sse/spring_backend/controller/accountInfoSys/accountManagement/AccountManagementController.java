@@ -2,8 +2,8 @@ package cn.tju.sse.spring_backend.controller.accountInfoSys.accountManagement;
 
 import cn.tju.sse.spring_backend.dto.accountInfoSys.accountManagement.ChangeUserStateRequestDTO;
 import cn.tju.sse.spring_backend.dto.accountInfoSys.accountManagement.UserResponseDTO;
-import cn.tju.sse.spring_backend.service.accountInfoSys.accountManagement.UserListService;
-import cn.tju.sse.spring_backend.service.accountInfoSys.accountManagement.UserStateService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.AdminManager.UserListService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.AdminManager.UserStateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

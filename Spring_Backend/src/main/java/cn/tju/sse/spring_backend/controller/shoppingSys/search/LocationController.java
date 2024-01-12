@@ -4,7 +4,7 @@ package cn.tju.sse.spring_backend.controller.shoppingSys.search;
 import cn.tju.sse.spring_backend.dto.shoppingSys.search.GetLocationSortRequestDTO;
 import cn.tju.sse.spring_backend.dto.shoppingSys.search.GetLocationSortResponseDTO;
 import cn.tju.sse.spring_backend.dto.shoppingSys.search.SendLocationResponseDTO;
-import cn.tju.sse.spring_backend.service.shoppingSys.search.LocationService;
+import cn.tju.sse.spring_backend.service.shoppingSys.BrowseManager.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
