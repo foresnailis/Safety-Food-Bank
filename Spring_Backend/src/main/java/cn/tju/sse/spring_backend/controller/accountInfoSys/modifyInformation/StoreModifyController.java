@@ -2,7 +2,7 @@ package cn.tju.sse.spring_backend.controller.accountInfoSys.modifyInformation;
 
 import cn.tju.sse.spring_backend.dto.pub.modify.StoreModifyRequestDTO;
 import cn.tju.sse.spring_backend.dto.pub.modify.StoreModifyResponseDTO;
-import cn.tju.sse.spring_backend.service.pub.modify.StoreModifyService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.modifyinformation.StoreModifyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

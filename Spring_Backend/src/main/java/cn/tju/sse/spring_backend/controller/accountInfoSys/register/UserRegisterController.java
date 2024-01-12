@@ -1,9 +1,9 @@
 package cn.tju.sse.spring_backend.controller.accountInfoSys.register;
 
 import cn.tju.sse.spring_backend.dto.pub.register.*;
-import cn.tju.sse.spring_backend.service.pub.register.CusRegisterService;
-import cn.tju.sse.spring_backend.service.pub.register.StoreRegisterService;
-import cn.tju.sse.spring_backend.service.pub.register.UserRegisterService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.register.CusRegisterService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.register.StoreRegisterService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.register.UserRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

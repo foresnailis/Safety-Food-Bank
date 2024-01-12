@@ -2,7 +2,7 @@ package cn.tju.sse.spring_backend.controller.shoppingSys.commodity;
 
 import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityShoppingCartRequestDTO;
 import cn.tju.sse.spring_backend.dto.cus.commodity.CommodityShoppingCartResponseDTO;
-import cn.tju.sse.spring_backend.service.cus.commodity.CommodityShoppingCartService;
+import cn.tju.sse.spring_backend.service.shoppingSys.commodity.CommodityShoppingCartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -3,7 +3,7 @@ package cn.tju.sse.spring_backend.controller.shelfSys.upload;
 import cn.tju.sse.spring_backend.dto.sto.upload.CommodityDeleteTmpImageRequestDTO;
 import cn.tju.sse.spring_backend.dto.sto.upload.CommodityImageUploadRequestDTO;
 import cn.tju.sse.spring_backend.dto.sto.upload.CommodityUploadRequestDTO;
-import cn.tju.sse.spring_backend.service.sto.upload.CommodityUploadService;
+import cn.tju.sse.spring_backend.service.shelfSys.upload.CommodityUploadService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

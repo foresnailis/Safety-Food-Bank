@@ -1,6 +1,6 @@
 package cn.tju.sse.spring_backend.dto.cus.store;
 
-import cn.tju.sse.spring_backend.service.cus.store.CustomerGetStoreDetailService;
+import cn.tju.sse.spring_backend.service.shoppingSys.store.CustomerGetStoreDetailService;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -2,7 +2,7 @@ package cn.tju.sse.spring_backend.controller.shoppingSys.favorite;
 
 import cn.tju.sse.spring_backend.dto.cus.favorite.CustomerGetFavorFailResponse;
 import cn.tju.sse.spring_backend.dto.cus.favorite.CustomerGetFavorResponse;
-import cn.tju.sse.spring_backend.service.cus.favorite.CustomerGetFavorService;
+import cn.tju.sse.spring_backend.service.shoppingSys.favorite.CustomerGetFavorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -3,9 +3,7 @@ package cn.tju.sse.spring_backend.controller.appealSys;
 
 import cn.tju.sse.spring_backend.dto.cus.appeal.CreateAppealRequestDTO;
 import cn.tju.sse.spring_backend.dto.cus.appeal.MsgResponseDTO;
-import cn.tju.sse.spring_backend.dto.cus.indent.RefundRequestDTO;
-import cn.tju.sse.spring_backend.dto.cus.indent.RefundResponseDTO;
-import cn.tju.sse.spring_backend.service.cus.appeal.AppealService;
+import cn.tju.sse.spring_backend.service.appealSys.AppealService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

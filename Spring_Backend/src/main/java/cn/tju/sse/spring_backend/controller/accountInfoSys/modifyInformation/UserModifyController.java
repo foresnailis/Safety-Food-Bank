@@ -2,7 +2,7 @@ package cn.tju.sse.spring_backend.controller.accountInfoSys.modifyInformation;
 
 import cn.tju.sse.spring_backend.dto.pub.modify.UserModifyRequestDTO;
 import cn.tju.sse.spring_backend.dto.pub.modify.UserModifyResponseDTO;
-import cn.tju.sse.spring_backend.service.pub.modify.UserModifyService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.modifyinformation.UserModifyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -2,7 +2,7 @@ package cn.tju.sse.spring_backend.controller.accountInfoSys.information;
 
 import cn.tju.sse.spring_backend.dto.pub.information.UserInformationRequestDTO;
 import cn.tju.sse.spring_backend.dto.pub.information.UserInformationResponseDTO;
-import cn.tju.sse.spring_backend.service.pub.information.UserInformationService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.information.UserInformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

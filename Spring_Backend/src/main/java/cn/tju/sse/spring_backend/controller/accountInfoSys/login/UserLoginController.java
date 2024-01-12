@@ -5,8 +5,8 @@ import cn.dev33.satoken.util.SaResult;
 import cn.tju.sse.spring_backend.dto.pub.login.UserLoginRequestDTO;
 import cn.tju.sse.spring_backend.dto.pub.login.UserLoginResponseDTO;
 import cn.tju.sse.spring_backend.dto.pub.login.UserQuitRequestDTO;
-import cn.tju.sse.spring_backend.service.pub.login.UserLoginService;
-import cn.tju.sse.spring_backend.service.pub.login.UserQuitService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.login.UserLoginService;
+import cn.tju.sse.spring_backend.service.accountInfoSys.login.UserQuitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

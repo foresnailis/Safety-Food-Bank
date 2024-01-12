@@ -2,7 +2,7 @@ package cn.tju.sse.spring_backend.controller.shoppingSys;
 
 import cn.tju.sse.spring_backend.dto.pub.GetMessageResponseDTO;
 import cn.tju.sse.spring_backend.dto.pub.UserIDRequestDTO;
-import cn.tju.sse.spring_backend.service.pub.GetRecommendationService;
+import cn.tju.sse.spring_backend.service.shoppingSys.GetRecommendationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
