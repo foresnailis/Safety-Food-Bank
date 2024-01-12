@@ -23,12 +23,13 @@ public class StpInterfaceImpl implements StpInterface {
     public List<String> getPermissionList(Object loginId, String loginType) {
 
         List<String> list = new ArrayList<String>();
-        if(!userRegisterRepository.existsUsersEntityByUserId((Integer) loginId)) {
+//        System.out.println("start check ! id is : "+loginId);
+        if(userRegisterRepository.existsUsersEntityByUserId((Integer) loginId)) {
             list.add("user.*");
-            System.out.println("user role login!  id: "+loginId);
+            System.out.println("user role checked!  id: "+loginId);
         }else{
             list.add("admin.*");
-            System.out.println("admin role login!");
+            System.out.println("admin role checked!");
         }
 
         return list;
@@ -41,7 +42,7 @@ public class StpInterfaceImpl implements StpInterface {
     public List<String> getRoleList(Object loginId, String loginType) {
 //        同理，直接声明用户角色
         List<String> list = new ArrayList<String>();
-        if(!userRegisterRepository.existsUsersEntityByUserId((Integer) loginId)) {
+        if(userRegisterRepository.existsUsersEntityByUserId(Integer.parseInt((String) loginId))) {
             list.add("user");
         }else{
             list.add("admin");
