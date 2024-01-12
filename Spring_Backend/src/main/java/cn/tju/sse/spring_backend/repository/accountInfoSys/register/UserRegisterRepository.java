@@ -7,5 +7,7 @@ public interface UserRegisterRepository extends JpaRepository<UsersEntity,Intege
     public boolean existsUsersEntityByUserPhone(String user_phone);
 
     public UsersEntity findUsersEntitiesByUserPhone(String user_phone);
+    public boolean existsUsersEntityByUserId(int loginId);
+
 
 }
