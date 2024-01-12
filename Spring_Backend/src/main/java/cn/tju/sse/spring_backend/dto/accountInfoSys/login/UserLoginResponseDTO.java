@@ -9,4 +9,5 @@ public class UserLoginResponseDTO {
     private String user_type;
     private String message;
     private String user_ID;
+    private String satoken;
 }

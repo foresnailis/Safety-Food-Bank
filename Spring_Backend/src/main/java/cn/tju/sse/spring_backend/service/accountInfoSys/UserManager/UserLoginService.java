@@ -1,10 +1,14 @@
 package cn.tju.sse.spring_backend.service.accountInfoSys.UserManager;
 
+import cn.dev33.satoken.stp.StpUtil;
+import cn.tju.sse.spring_backend.dto.accountInfoSys.accountManagement.AdminLoginRequestDTO;
 import cn.tju.sse.spring_backend.dto.accountInfoSys.login.UserLoginRequestDTO;
 import cn.tju.sse.spring_backend.dto.accountInfoSys.login.UserLoginResponseDTO;
+import cn.tju.sse.spring_backend.model.AdministratorEntity;
 import cn.tju.sse.spring_backend.model.CustomerEntity;
 import cn.tju.sse.spring_backend.model.StoreEntity;
 import cn.tju.sse.spring_backend.model.UsersEntity;
+import cn.tju.sse.spring_backend.repository.accountInfoSys.accountManagement.AdminRepository;
 import cn.tju.sse.spring_backend.repository.accountInfoSys.register.CustomerRepository;
 import cn.tju.sse.spring_backend.repository.accountInfoSys.register.StoreRegisterRepository;
 import cn.tju.sse.spring_backend.repository.accountInfoSys.register.UserRegisterRepository;
@@ -23,6 +27,8 @@ public class UserLoginService {
     private CustomerRepository customerRepository;
     @Autowired
     private StoreRegisterRepository storeRegisterRepository;
+    @Autowired
+    private AdminRepository adminRepository;
     public UserLoginResponseDTO UserLogin(UserLoginRequestDTO request){
         UserLoginResponseDTO userLoginResponseDTO;
         String loginType= request.getLogin_type();
@@ -84,6 +90,14 @@ public class UserLoginService {
                     return userLoginResponseDTO;
                 }
 
+                // 设置sa-token会话登录
+                StpUtil.login(id);
+                // 返回token值
+                userLoginResponseDTO.setSatoken(StpUtil.getTokenValue());
+                System.out.println(StpUtil.getRoleList());
+
+
+
                 userLoginResponseDTO.setMessage("success");
                 userLoginResponseDTO.setUser_type("0");
                 userLoginResponseDTO.setUser_ID(Integer.toString(id));
@@ -97,6 +111,14 @@ public class UserLoginService {
                     userLoginResponseDTO.setUser_ID("");
                     return userLoginResponseDTO;
                 }
+
+
+                // 设置sa-token会话登录
+                StpUtil.login(id);
+                // 返回token值
+                userLoginResponseDTO.setSatoken(StpUtil.getTokenValue());
+                System.out.println(StpUtil.getRoleList());
+
 
                 userLoginResponseDTO.setMessage("success");
                 userLoginResponseDTO.setUser_type("1");
@@ -113,5 +135,14 @@ public class UserLoginService {
         }
         System.out.println("userlogin: "+userLoginResponseDTO.getMessage());
         return userLoginResponseDTO;
+    }
+
+    public boolean adminLogin(AdminLoginRequestDTO request){
+        Optional<AdministratorEntity> administratorEntity=adminRepository.findByAdminPassword(request.getPassword());
+        if(administratorEntity.isPresent()){
+            StpUtil.login(administratorEntity.get().getAdminId());
+            return true;
+        }
+        return false;
     }
 }
