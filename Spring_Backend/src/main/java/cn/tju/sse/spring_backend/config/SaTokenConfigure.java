@@ -23,13 +23,18 @@ public class SaTokenConfigure implements WebMvcConfigurer {
                 System.out.println("顾客权限校验ing...");
                 StpUtil.checkRoleOr("admin", "user");
             });
-//            // 管理员角色校验
-//            SaRouter.match("/api/admin/**", r -> {
-//                StpUtil.checkPermission("admin");
-//                System.out.println("管理员权限校验ing...");
-//            });
+
+            // 管理员角色校验
+            SaRouter.match("/api/admin/**", r -> {
+                StpUtil.checkRole("admin");
+                System.out.println("管理员权限校验ing...");
+            });
 
 
-        })).addPathPatterns("/**");
+        }))
+                .addPathPatterns("/**")
+                .excludePathPatterns("/api/cus/search/getLocationSort")
+                .excludePathPatterns("/api/cus/recommendation")
+                .excludePathPatterns("/api/cus/search/sendLocation"); ;
     }
 }

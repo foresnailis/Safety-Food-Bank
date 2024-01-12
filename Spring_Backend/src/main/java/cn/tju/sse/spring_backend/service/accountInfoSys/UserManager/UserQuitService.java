@@ -15,9 +15,15 @@ public class UserQuitService {
     private UserRegisterRepository userRegisterRepository;
 
     public String userQuit(UserQuitRequestDTO request){
+        if(StpUtil.getRoleList().get(0)=="admin"){
+            // 管理员下线
+            StpUtil.logout(StpUtil.getLoginId());
+            return "success";
+        }
         StpUtil.getLoginId();
         Optional<UsersEntity> usersEntity=userRegisterRepository.findById(Integer.parseInt(request.getUser_ID()));
         usersEntity.get().setUserState(0);
+
         if (userRegisterRepository.save(usersEntity.get())!=null) {
             StpUtil.logout();
             System.out.println(request.getUser_ID()+" success logout");

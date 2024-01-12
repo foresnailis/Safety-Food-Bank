@@ -24,7 +24,7 @@ public class StpInterfaceImpl implements StpInterface {
 
         List<String> list = new ArrayList<String>();
 //        System.out.println("start check ! id is : "+loginId);
-        if(userRegisterRepository.existsUsersEntityByUserId((Integer) loginId)) {
+        if(userRegisterRepository.existsUsersEntityByUserId(Integer.parseInt((String )loginId))) {
             list.add("user.*");
             System.out.println("user role checked!  id: "+loginId);
         }else{
